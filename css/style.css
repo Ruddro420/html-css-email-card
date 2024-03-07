@@ -1,0 +1,81 @@
+/* Basic Setup */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Oswald", sans-serif;
+}
+/* Nav Style here */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.menu-container{
+    background-color: #00BDFE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+.menu-container ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+.menu-container ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.sign-in-container button{
+    border: 2px solid #00BDFE;
+    border-radius: 6px;
+    background-color: white;
+    color: #00BDFE;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* Header Style Here */
+.header-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.1),rgb(2, 188, 255)),url('../img//header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+    text-align: center;
+    color: white;
+}
+.header-container h1{
+    font-size: 62px;
+}
+.header-container p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.header-button button{
+    border: 2px solid white;
+    border-radius: 6px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+}
+.header-second-button{
+    display: flex;
+    align-items: center;
+}
